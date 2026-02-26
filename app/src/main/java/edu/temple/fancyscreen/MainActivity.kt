@@ -20,6 +20,12 @@ class MainActivity : AppCompatActivity() {
         findViewById<ImageView>(R.id.profile_photo).setImageResource(R.drawable.istockphoto)
 
         findViewById<TextView>(R.id.name).setText(getString(R.string.michelle_townsend))
+        findViewById<TextView>(R.id.emailLabel).setText(getString(R.string.emailLabel))
+        findViewById<TextView>(R.id.supervisorLabel).setText(getString(R.string.supervisorLabel))
+        findViewById<TextView>(R.id.departmentLabel).setText(getString(R.string.departmentLabel))
+        findViewById<TextView>(R.id.directReportsLabel).setText(getString(R.string.directReportsLabel))
+        findViewById<TextView>(R.id.extensionLabel).setText(getString(R.string.extensionLabel))
+
 
         with(findViewById<TextView>(R.id.email)) {
             text = context.getString(R.string.mt_ourcompany_com)
