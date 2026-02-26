@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">FancyScreen</string>
-    <string name ="userEmail">" E-mail"</string>
-    <string name ="supervisorLabel"> Supervisor</string>
-    <string name ="deptLabel">Department</string>
-    <string name ="directLabel">Direct reports</string>
+    <string name="app_name">Écran du Luxe</string>
+    <string name ="userEmail"> E-mail </string>
+    <string name ="supervisorLabel">Superviseur</string>
+    <string name ="deptLabel">département</string>
+    <string name ="directLabel">Rapport Direct</string>
     <string name ="extensionsLabel">Extensions</string>
     <string name="_2253">2253</string>
     <string name="michelle_townsend">Michelle Townsend</string>
-    <string name="mt_ourcompany_com">mt@ourcompany.com</string>
-    <string name="design">Design</string>
+    <string name="mt_ourcompany_com">mt@noscompanie.com</string>
+    <string name="design">Conception</string>
     <string name="gail_davers">Gail Davers</string>
     <string name="kate_sacloff">Kate Sacloff</string>
     <string name="andrew_klein">Andrew Klein</string>
@@ -17,5 +17,4 @@
     <string name="brent_stevenson">Brent Stevenson</string>
     <string name="daniel_cho">Daniel Cho</string>
     <string name="jorge_gomez">Jorge Gomez</string>
-
 </resources>

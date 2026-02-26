@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -18,32 +19,34 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<ImageView>(R.id.profile_photo).setImageResource(R.drawable.istockphoto)
 
-        findViewById<TextView>(R.id.name).setText("Michelle Townsend")
+        findViewById<TextView>(R.id.name).setText(getString(R.string.michelle_townsend))
 
         with(findViewById<TextView>(R.id.email)) {
-            text = "mt@ourcompany.com"
+            text = context.getString(R.string.mt_ourcompany_com)
             setTextColor(Color.BLUE)
         }
 
-        findViewById<TextView>(R.id.extension).text = "2253"
+        findViewById<TextView>(R.id.extension).text = getString(R.string._2253)
 
-        findViewById<TextView>(R.id.department).text = "Design"
+        findViewById<TextView>(R.id.department).text = getString(R.string.design)
 
-        findViewById<TextView>(R.id.supervisor).text = "Gail Davers"
+        findViewById<TextView>(R.id.supervisor).text = getString(R.string.gail_davers)
 
         with (findViewById<RecyclerView>(R.id.directReportsRecyclerView)) {
             adapter = RecyclerViewAdapter(
                 arrayOf(
-                    "Kate Sacloff",
-                    "Andrew Klein",
-                    "Maria Ortega",
-                    "Brent Stevenson",
-                    "Daniel Cho",
-                    "Jorge Gomez"
+                    context.getString(R.string.kate_sacloff),
+                    context.getString(R.string.andrew_klein),
+                    context.getString(R.string.maria_ortega),
+                    context.getString(R.string.brent_stevenson),
+                    context.getString(R.string.daniel_cho),
+                    context.getString(R.string.jorge_gomez)
                 )
             )
             layoutManager = LinearLayoutManager(this@MainActivity)
         }
+
+
     }
 }
 
@@ -67,4 +70,6 @@ class RecyclerViewAdapter (private val staffList: Array<String>) : RecyclerView.
     override fun onBindViewHolder(holder: StaffListViewHolder, position: Int) {
         holder.textView.text = staffList[position]
     }
+
+
 }
