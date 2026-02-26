@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">FancyScreen</string>
-    <string name ="userEmail">" E-mail"</string>
+    <string name ="emailLabel">" E-mail"</string>
     <string name ="supervisorLabel"> Supervisor</string>
-    <string name ="deptLabel">Department</string>
-    <string name ="directLabel">Direct reports</string>
-    <string name ="extensionsLabel">Extensions</string>
+    <string name ="departmentLabel">Department</string>
+    <string name ="directReportsLabel">Direct reports</string>
+    <string name ="extensionLabel">Extensions</string>
     <string name="_2253">2253</string>
     <string name="michelle_townsend">Michelle Townsend</string>
     <string name="mt_ourcompany_com">mt@ourcompany.com</string>
